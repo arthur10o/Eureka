@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_profil.css"/>
+        <link rel="icon" href="images/logo_accueil_allumé.png" type="image/png">
+        <title>Eurêka ! : Profil</title>
+    </head>
+    <body class="modeClairSombre">
+        <nav>
+            <ul id="list">
+                <li class="modeClairSombre">
+                    <a href="../index/index.html" class="a hover">
+                        <ion-icon name="home-outline" class="icon hover"></ion-icon>Accueil
+                    </a>
+                </li>
+                <li class="modeClairSombre" id="login_logout">
+                    <a class="a hover" onclick="login_logout()" href="../login/login.html" id="lien_login">
+                        <ion-icon name="person-outline" class="icon hover"></ion-icon>Se Connecter
+                    </a>
+                </li>
+                <li class="modeClairSombre">
+                    <button class="hover" id="bouttonClaireSombre">
+                        <ion-icon name="moon-outline" class="icon lune hover" class="lune"></ion-icon>Mode Sombre
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <section id="container">
+            <div id="carre">
+                <div>
+                    <div id="box" class="container boxshadow">
+                        <div class="box">
+                            <h1 id="box" class="nom_user"></h1>
+                            <div id = profil>
+                                <ul>
+                                    <h2>Ecrit'tout :</h2>
+                                    <li id="ecrit_tout">Veuillez jouez pour avoir vos stats</li>
+                                    <br>
+
+                                    <h2>Reponse à tout :</h2>
+                                    <li id="quizz_anglais_facile">Niveau d'anglais facile : Pas de stats</li>
+                                    <li id="quizz_anglais_moyen">Niveau d'anglais moyen : Pas de stats</li>
+                                    <li id="quizz_anglais_difficile">Niveau d'anglais difficile : Pas de stats</li>
+                                    <li id="quizz_anglais_expert">Niveau d'anglais expert : Pas de stats</li>
+                                    <br>
+                                    <li id="quizz_NSI_facile">Niveau d'NSI facile : Pas de stats</li>
+                                    <li id="quizz_NSI_moyen">Niveau d'NSI moyen : Pas de stats</li>
+                                    <li id="quizz_NSI_difficile">Niveau d'NSI difficile : Pas de stats</li>
+                                    <li id="quizz_NSI_expert">Niveau d'NSI expert : Pas de stats</li>
+                                    <br>
+                                    <li id="quizz_culture_G_facile">Niveau de culture G facile : Pas de stats</li>
+                                    <li id="quizz_culture_G_moyen">Niveau de culture G  moyen : Pas de stats</li>
+                                    <li id="quizz_culture_G_difficile">Niveau de culture G  difficile : Pas de stats</li>
+                                    <li id="quizz_culture_G_expert">Niveau de culture G  expert : Pas de stats</li>
+                                    <br>
+                                    <li id="quizz_histoire_facile">Niveau d'histoire facile : Pas de stats</li>
+                                    <li id="quizz_histoire_moyen">Niveau d'histoire moyen : Pas de stats</li>
+                                    <li id="quizz_histoire_difficile">Niveau d'histoire difficile : Pas de stats</li>
+                                    <li id="quizz_histoire_expert">Niveau d'histoire expert : Pas de stats</li>
+                                    <br>
+                                    <li id="quizz_mathe_facile">Niveau de mathe facile : Pas de stats</li>
+                                    <li id="quizz_mathe_moyen">Niveau de mathe moyen : Pas de stats</li>
+                                    <li id="quizz_mathe_difficile">Niveau de mathe difficile : Pas de stats</li>
+                                    <li id="quizz_mathe_expert">Niveau de mathe expert : Pas de stats</li>
+                                    <br>
+                                    <li id="quizz_physique_facile">Niveau de physique facile : Pas de stats</li>
+                                    <li id="quizz_physique_moyen">Niveau de physique moyen : Pas de stats</li>
+                                    <li id="quizz_physique_difficile">Niveau de physique difficile : Pas de stats</li>
+                                    <li id="quizz_physique_expert">Niveau de physique expert : Pas de stats</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <script src="script_profil.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>                <!--Pour les icons-->
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>                         <!--Pour les icons-->
+    </body>
+</html>

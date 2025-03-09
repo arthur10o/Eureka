@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_quizz_physique_moyen.CSS"/>
+        <link rel="icon" href="images/logo_accueil_allumé.png" type="image/png">
+        <title>Eurêka ! : Quizz Physique : Moyen</title>
+    </head>
+    <body class="modeClairSombre">
+        <nav>
+            <ul id="list">
+                <li class="modeClairSombre">
+                    <a href="../choix_niv_question/quizz_choix_niv_question.html" class="a hover">
+                        <ion-icon name="return-down-back-outline"></ion-icon>Revenir en arrière
+                    </a>
+                </li>
+                <li class="modeClairSombre">
+                    <a href="../../index/index.html" class="a hover">
+                        <ion-icon name="home-outline" class="icon hover"></ion-icon>Accueil
+                    </a>
+                </li>
+                <li class="modeClairSombre" id="login_logout">
+                    <a class="a hover" onclick="login_logout()" href="../login/login.html" id="lien_login">
+                        <ion-icon name="person-outline" class="icon hover"></ion-icon>Se Connecter
+                    </a>
+                </li>
+                <li class="modeClairSombre" id="profil">
+                </li>
+                <li class="modeClairSombre">
+                    <button class="hover" id="bouttonClaireSombre">
+                        <ion-icon name="moon-outline" class="icon lune hover" class="lune"></ion-icon>Mode Sombre
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <section id="container">
+            <div id="carre">
+                <div>
+                    <div id="general" class="container boxshadow">
+                        <div class="question">
+                            <h1 id="question">1. Quelle est la loi de Newton concernant la gravitation ?</h1>
+                            <ul>
+                                <li><a id="rep1" class="reponse">- F = ma</a></li>
+                                <li><a id="rep2" class="reponse">- F = G * (m1 * m2) / r²</a></li>
+                                <li><a id="rep3" class="reponse">- E = mc²</a></li>
+                                <li><a id="rep4" class="reponse">- P = U * I</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <footer>
+            <div id="footer">
+                <div id="rsContact">
+                    <div id="reseaux_sociaux">
+                        <h3>
+                            Nos Réseaux Sociaux :
+                        </h3>
+                        <ul>
+                            <div id="rs">
+                                <div id="colone_1">
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                            <a href="https://www.facebook.com/paul_1g_ldb">
+                                                Rejoins-nous sur Facebook !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                            <a href="https://www.instagram.com/paul_1g_ldb">
+                                                Rejoins-nous sur Instagram !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                            <a href="https://x.com/paul_1g_ldb">
+                                                Rejoins-nous sur X !
+                                            </a>
+                                        </p>
+                                    </li>
+                                </div>
+                                <div id="colone_2">
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-youtube"></ion-icon>
+                                            <a href="https://www.youtube.com/paul_1g_ldb">
+                                                Rejoins-nous sur Youtube !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-tiktok"></ion-icon>
+                                            <a href="https://www.tiktok.com/paul_1g_ldb">
+                                                Rejoins-nous sur TikTok !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-twitch"></ion-icon>
+                                            <a href="https://www.twitch.com/paul_1g_ldb">
+                                                Rejoins-nous sur Twitch !
+                                            </a>
+                                        </p>
+                                    </li>
+                                </div>
+                                <div id="colone_3">
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-discord"></ion-icon>
+                                            <a href="https://www.discord.com/paul_1g_ldb">
+                                                Rejoins-nous sur Discord !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-whatsapp"></ion-icon>
+                                            <a href="https://www.whatsapp.com/paul_1g_ldb">
+                                                Rejoins-nous sur Whatsapp !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-snapchat"></ion-icon>
+                                            <a href="https://www.snapchat.com/paul_1g_ldb">
+                                                Rejoins-nous sur Snapchat !
+                                            </a>
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div id="contact">
+                        <h3>
+                            Nous contacter :
+                        </h3>
+                        <ul>
+                            <li class="modeClairSombre">
+                                <p>
+                                    <ion-icon name="mail-open-outline"></ion-icon>
+                                    service_client.eureka@gmail.com
+                                </p>
+                            </li>
+                            <li class="modeClairSombre">
+                                <p>
+                                    <ion-icon name="call-outline"></ion-icon>
+                                    +33 1 78 16 00 00
+                                </p>
+                            </li>
+                            <li class="modeClairSombre">
+                                <p>
+                                    <a href="https://www.google.fr/maps/place/Lycée+Louis+de+Broglie/@48.8683458,2.0967226,1146m/data=!3m1!1e3!4m6!3m5!1s0x47e662a99a20fee5:0x8325e930fae77218!8m2!3d48.8666523!4d2.0989462!16s%2Fg%2F1tc_7zpb?entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D">
+                                    <ion-icon name="location-outline"></ion-icon>
+                                    1 Avenue Jean Béranger, 78160 Marly-le-Roi, France</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="copyright">
+                    <p>&copy; 2025 Eurêka ! Tous droits réservés.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="script_quizz_physique_moyen.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>                <!--Pour les icons-->
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>                         <!--Pour les icons-->
+    </body>
+</html>

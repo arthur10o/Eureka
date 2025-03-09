@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_sign_up.css"/>
+        <link rel="icon" href="images/logo_accueil_allumé.png" type="image/png">
+        <title>Eurêka ! : Inscription</title>
+    </head>
+    <body class="modeClairSombre">
+        <nav>
+            <ul id="list">
+                <li class="modeClairSombre">
+                    <a href="../index/index.html" class="a hover">
+                        <ion-icon name="home-outline" class="icon hover"></ion-icon>Accueil
+                    </a>
+                </li>
+                <li class="modeClairSombre">
+                    <a href="../login/login.html" class="a hover">
+                        <ion-icon name="log-in-outline" class="icon hover"></ion-icon>Connexion
+                    </a>
+                </li>
+                <li class="modeClairSombre">
+                    <button class="hover" id="bouttonClaireSombre">
+                        <ion-icon name="moon-outline" class="icon lune hover" class="lune"></ion-icon>Mode Sombre
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <section id="container">
+            <div id="carre">
+                <div>
+                    <div id="box" class="container boxshadow">
+                        <div class="box">
+                            <h1 id="box">Inscription</h1>
+                            <form id="sign_up_form">
+                                <label for="mail"><ion-icon name="mail-outline"></ion-icon>Email :</label>
+                                <input type="text" id="mail" placeholder="Email" required>
+                                <br><br>
+                                <label for="nom_utilisateur"><ion-icon name="person-outline"></ion-icon>Nom d'utilisateur :</label>
+                                <input type="text" id="nom_utilisateur" placeholder="Nom d'utilisateur" required>
+                                <br><br>
+                                <label for="mot_de_passe"><ion-icon name="lock-closed-outline"></ion-icon>Mot de passe :</label>
+                                <input type="password" id="mot_de_passe" placeholder="Mot de passe" required>
+                                <br><br>
+                                <label for="mot_de_passe"><ion-icon name="lock-closed-outline"></ion-icon>Confirmé votre de passe :</label>
+                                <input type="password" id="mot_de_passe_confirmation" placeholder="Mot de passe" required>
+                                <br><br>
+                                <button type="submit" id="boutton_submit">S'inscrire</button>
+                            </form>
+                            <p id="message_d_erreur" style="color: red; display: none;">Nom d'utilisateur ou mot de passe incorrect</p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <script src="script_sign_up.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>                <!--Pour les icons-->
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>                         <!--Pour les icons-->
+    </body>
+</html>

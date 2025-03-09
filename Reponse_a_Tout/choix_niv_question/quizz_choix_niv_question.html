@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_quizz_choix_niv_question.CSS"/>
+        <link rel="icon" href="images/logo_accueil_allumé.png" type="image/png">
+        <title>Eurêka ! : Choix du quizz</title>
+    </head>
+    <body class="modeClairSombre">
+        <nav>
+            <ul id="list">
+                <li class="modeClairSombre">
+                    <a href="../../index/index.html" class="a hover">
+                        <ion-icon name="home-outline" class="icon hover"></ion-icon>Accueil
+                    </a>
+                </li>
+                <li class="modeClairSombre" id="login_logout">
+                    <a class="a hover" onclick="login_logout()" href="../login/login.html" id="lien_login">
+                        <ion-icon name="person-outline" class="icon hover"></ion-icon>Se Connecter
+                    </a>
+                </li>
+                <li class="modeClairSombre" id="profil">
+                </li>>
+                <li class="modeClairSombre">
+                    <button class="hover" id="bouttonClaireSombre">
+                        <ion-icon name="moon-outline" class="icon lune hover" class="lune"></ion-icon>Mode Sombre
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <section id="liste_niv">
+            <div id="Catalogue">
+                <!-- Première ligne -->
+                <div id="ligne_une">
+                    <div id="general" class="liste_niv boxshadow">
+                        <div class="matière">
+                            <img src="images/logo culture g.png" alt="logo Culture G">
+                            <ul>
+                                <li><a href="../quizz culture g facile/quizz_culture_g_facile.html">Niveau Facile</a></li>
+                                <li><a href="../quizz culture g moyen/quizz_culture_g_moyen.html">Niveau Moyen</a></li>
+                                <li><a href="../quizz culture g difficile/quizz_culture_g_difficile.html">Niveau Difficile</a></li>
+                                <li><a href="../quizz culture g expert/quizz_culture_g_expert.html">Niveau Expert</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="math" class="liste_niv boxshadow">
+                        <div class="matière">
+                            <img src="images/logo math.png" alt="logo Mathématique">
+                            <ul>
+                                <li><a href="../quizz mathe  facile/quizz_mathe_facile.html">Niveau Facile</a></li>
+                                <li><a href="../quizz mathe moyen/quizz_mathe_moyen.html">Niveau Moyen</a></li>
+                                <li><a href="../quizz mathe difficile/quizz_mathe_difficile.html">Niveau Difficile</a></li>
+                                <li><a href="../quizz mathe expert/quizz_mathe_expert.html">Niveau Expert</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Deuxième ligne -->
+                <div id="ligne_deux">
+                    <div id="anglais" class="liste_niv boxshadow">
+                        <div class="matière">
+                            <img src="images/drapeau anglais.png" alt="logo Anglais">
+                            <ul>
+                                <li><a href="../quizz anglais  facile/quizz_anglais_facile.html">Niveau Facile</a></li>
+                                <li><a href="../quizz anglais moyen/quizz_anglais_moyen.html">Niveau Moyen</a></li>
+                                <li><a href="../quizz anglais difficile/quizz_anglais_difficile.html">Niveau Difficile</a></li>
+                                <li><a href="../quizz anglais expert/quizz_anglais_expert.html">Niveau Expert</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="histoirgeo" class="liste_niv boxshadow">
+                        <div class="matière">
+                            <img src="images/logo histoire geo.png" alt="logo Histoire Geographie">
+                            <ul>
+                                <li><a href="../quizz histoire  facile/quizz_histoire_facile.html">Niveau Facile</a></li>
+                                <li><a href="../quizz histoire  moyen/quizz_histoire_moyen.html">Niveau Moyen</a></li>
+                                <li><a href="../quizz histoire difficile/quizz_histoire_difficile.html">Niveau Difficile</a></li>
+                                <li><a href="../quizz histoire expert/quizz_histoire_expert.html">Niveau Expert</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Troisième ligne -->
+                <div id="ligne_trois">
+                    <div id="pc" class="liste_niv boxshadow">
+                        <div class="matière">
+                            <img src="images/logo pc.png" alt="logo Physique Chimie">
+                            <ul>
+                                <li><a href="../quizz physique  facile/quizz_physique_facile.html">Niveau Facile</a></li>
+                                <li><a href="../quizz physique  moyen/quizz_physique_moyen.html">Niveau Moyen</a></li>
+                                <li><a href="../quizz physique difficile/quizz_physique_difficile.html">Niveau Difficile</a></li>
+                                <li><a href="../quizz physique expert/quizz_physique_expert.html">Niveau Expert</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="nsi" class="liste_niv boxshadow">
+                        <div class="matière">
+                            <img src="images/logo NSI.png" alt="Logo NSI">
+                            <ul>
+                                <li><a href="../quizz NSI  facile/quizz_NSI_facile.html">Niveau Facile</a></li>
+                                <li><a href="../quizz NSI  moyen/quizz_NSI_moyen.html">Niveau Moyen</a></li>
+                                <li><a href="../quizz NSI difficile/quizz_NSI_difficile.html">Niveau Difficile</a></li>
+                                <li><a href="../quizz NSI expert/quizz_NSI_expert.html">Niveau Expert</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="footer">
+                <div id="rsContact">
+                    <div id="reseaux_sociaux">
+                        <h3>
+                            Nos Réseaux Sociaux :
+                        </h3>
+                        <ul>
+                            <div id="rs">
+                                <div id="colone_1">
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-facebook"></ion-icon>
+                                            <a href="https://www.facebook.com/paul_1g_ldb">
+                                                Rejoins-nous sur Facebook !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-instagram"></ion-icon>
+                                            <a href="https://www.instagram.com/paul_1g_ldb">
+                                                Rejoins-nous sur Instagram !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-twitter"></ion-icon>
+                                            <a href="https://x.com/paul_1g_ldb">
+                                                Rejoins-nous sur X !
+                                            </a>
+                                        </p>
+                                    </li>
+                                </div>
+                                <div id="colone_2">
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-youtube"></ion-icon>
+                                            <a href="https://www.youtube.com/paul_1g_ldb">
+                                                Rejoins-nous sur Youtube !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-tiktok"></ion-icon>
+                                            <a href="https://www.tiktok.com/paul_1g_ldb">
+                                                Rejoins-nous sur TikTok !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-twitch"></ion-icon>
+                                            <a href="https://www.twitch.com/paul_1g_ldb">
+                                                Rejoins-nous sur Twitch !
+                                            </a>
+                                        </p>
+                                    </li>
+                                </div>
+                                <div id="colone_3">
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-discord"></ion-icon>
+                                            <a href="https://www.discord.com/paul_1g_ldb">
+                                                Rejoins-nous sur Discord !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-whatsapp"></ion-icon>
+                                            <a href="https://www.whatsapp.com/paul_1g_ldb">
+                                                Rejoins-nous sur Whatsapp !
+                                            </a>
+                                        </p>
+                                    </li>
+                                    <li class="modeClairSombre">
+                                        <p>
+                                            <ion-icon name="logo-snapchat"></ion-icon>
+                                            <a href="https://www.snapchat.com/paul_1g_ldb">
+                                                Rejoins-nous sur Snapchat !
+                                            </a>
+                                        </p>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div id="contact">
+                        <h3>
+                            Nous contacter :
+                        </h3>
+                        <ul>
+                            <li class="modeClairSombre">
+                                <p>
+                                    <ion-icon name="mail-open-outline"></ion-icon>
+                                    service_client.eureka@gmail.com
+                                </p>
+                            </li>
+                            <li class="modeClairSombre">
+                                <p>
+                                    <ion-icon name="call-outline"></ion-icon>
+                                    +33 1 78 16 00 00
+                                </p>
+                            </li>
+                            <li class="modeClairSombre">
+                                <p>
+                                    <a href="https://www.google.fr/maps/place/Lycée+Louis+de+Broglie/@48.8683458,2.0967226,1146m/data=!3m1!1e3!4m6!3m5!1s0x47e662a99a20fee5:0x8325e930fae77218!8m2!3d48.8666523!4d2.0989462!16s%2Fg%2F1tc_7zpb?entry=ttu&g_ep=EgoyMDI1MDIwNC4wIKXMDSoASAFQAw%3D%3D">
+                                    <ion-icon name="location-outline"></ion-icon>
+                                    1 Avenue Jean Béranger, 78160 Marly-le-Roi, France</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="copyright">
+                    <p>&copy; 2025 Eurêka ! Tous droits réservés.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="script_quizz_choix_niv_question.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>                <!--Pour les icons-->
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>                         <!--Pour les icons-->
+    </body>
+</html>

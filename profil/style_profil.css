@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+ion-icon {
+    margin-right: 10px;
+}
+
+.soleil {
+    color: #003366
+}
+
+.lune {
+    color: #A2C8FF;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+li{
+    list-style: none;
+}
+
+nav {
+    margin-bottom: 15px;
+    position: fixed;
+    margin-left: 5px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;  
+    margin-top: 15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul a {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+nav ul button {
+    margin-left: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 70px;
+}
+
+#container #carre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrer les éléments */
+    margin: inherit auto;
+}
+
+#container #carre > div {
+    width: calc(33.33% - 20px); /* Chaque colonne occupe environ un tiers de la largeur */
+}
+
+#container #carre div .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+}
+
+#container #carre div .container .box {
+    text-align: center;
+    width: 100%;
+    max-width: 450px; /* Taille max pour la boîte */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#container #carre div .container .box h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#container #carre div .container .box form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#container #carre div .container .box form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+}
+
+#container #carre div .container .box form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+#container #carre div .container .box #message_d_erreur {
+    color: red;
+    text-align: center;
+    display: none;
+}
+
+#bouttonClaireSombre {
+    margin-top: 10px;
+}
+
+.modeClairSombre a {
+    text-decoration: none;
+    color: black;
+}
+
+.modeClairSombre a:hover {
+    color: #0073e6;
+}
+
+/* Tablette en mode paysage */
+@media (max-width: 1366px){
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+/* Tablette en mode portrait */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+    }
+   
+    body #container #carre {
+        position: relative;
+        justify-content: center;
+        margin-bottom: 10px;
+        padding: 70px;
+    }
+
+    footer{
+        margin-top: 50px;
+        position: relative;
+        bottom: 0;
+    }
+
+    footer #footer #rsContact{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    footer #footer #rsContact #reseaux_sociaux #rs{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    footer #footer #rsContact #contact{
+        margin-bottom: 10px;
+    }
+}
+
+/* Téléphone */
+@media (max-width: 480px){
+    nav ul li{
+        display: flex;
+        flex-direction: row;
+    }
+
+    body #container #carre {
+        position: relative;
+        justify-content: center;
+        margin-bottom: 10px;
+        width: 80%;
+        height: auto;
+    }
+
+    footer{
+        margin-top: 50px;
+        position: relative;
+        bottom: 0;
+        
+    }
+
+    footer #footer #rsContact{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    footer #footer #rsContact #reseaux_sociaux #rs{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    footer #footer #rsContact #contact{
+        margin-bottom: 10px;
+    }
+}
