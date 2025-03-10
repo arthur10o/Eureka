@@ -22,7 +22,7 @@ Checking repository status
 
 ## Authors
 
-- [@arthur10o(main repository)](https://github.com/arthur10o)
+- [@arthur10o (main repository)](https://github.com/arthur10o)
 - [@paul](https://github.com/arthur10o)
 
 ## Color Reference
