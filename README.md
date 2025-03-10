@@ -43,4 +43,8 @@ Checking repository status
 - Responsive mode
 - Login
 
+
+## LICENCE
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 ![Logo](https://github.com/arthur10o/Eureka/blob/main/index/images/logo_accueil_allumé.png)
