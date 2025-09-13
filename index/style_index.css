@@ -1,0 +1,448 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+ion-icon {
+    margin-right: 10px;
+}
+
+.soleil {
+    color: #003366
+}
+
+.lune {
+    color: #A2C8FF;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+nav {
+    margin-bottom: 15px;
+    position: fixed;
+    margin-left: 5px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;  
+    margin-top: 15px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul a {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+nav ul button {
+    margin-left: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+#home {
+    padding: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+header {
+    text-align: left;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+header #accueil {
+    display: flex;
+    flex-direction: row;
+}
+
+header #accueil img {
+    height: auto;
+    width: 250px;
+}
+
+header #accueil #h_home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+header #accueil #h_home h1 {
+    font-size: 100px;
+    white-space: nowrap;
+}
+
+header #accueil #h_home h2 {
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+header #accueil p {
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#liste_jeux {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 70px;
+}
+
+#liste_jeux #Catalogue {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+}
+
+#liste_jeux #Catalogue #colone1jeu,
+#liste_jeux #Catalogue #colone2jeu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+}
+
+#liste_jeux #Catalogue #colone1jeu #Calcultout,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2,
+#liste_jeux #Catalogue #colone2jeu #Convertitout,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 {
+    padding: 225px;
+    margin: 20px;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 450px;
+}
+
+#liste_jeux #Catalogue #colone1jeu #Calcultout .noms_jeux,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2 .noms_jeux,
+#liste_jeux #Catalogue #colone2jeu #Convertitout .noms_jeux,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 .noms_jeux {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+}
+
+#liste_jeux #Catalogue #colone1jeu #Calcultout .noms_jeux:hover,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2 .noms_jeux:hover,
+#liste_jeux #Catalogue #colone2jeu #Convertitout .noms_jeux:hover,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 .noms_jeux:hover{
+    color: #FEF9E6;
+} 
+
+#liste_jeux #Catalogue #colone1jeu #Calcultout .noms_jeux p,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2 .noms_jeux p,
+#liste_jeux #Catalogue #colone2jeu #Convertitout .noms_jeux p,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 .noms_jeux p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+#liste_jeux #Catalogue #colone1jeu #Calcultout .noms_jeux p a,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2 .noms_jeux p a,
+#liste_jeux #Catalogue #colone2jeu #Convertitout .noms_jeux p a,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 .noms_jeux p a {
+    color: inherit;
+}
+
+#liste_jeux #Catalogue #colone1jeu #Calcultout .noms_jeux img,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2 .noms_jeux img,
+#liste_jeux #Catalogue #colone2jeu #Convertitout .noms_jeux img,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 .noms_jeux img {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#liste_jeux #Catalogue #colone1jeu #Calcultout .noms_jeux .statistiques .statistiques_ligne_une p,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2 .noms_jeux .statistiques .statistiques_ligne_une p,
+#liste_jeux #Catalogue #colone2jeu #Convertitout .noms_jeux .statistiques .statistiques_ligne_une p,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 .noms_jeux .statistiques .statistiques_ligne_une p,
+#liste_jeux #Catalogue #colone1jeu #Calcultout .noms_jeux .statistiques .notes_jeux p,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2 .noms_jeux .statistiques .notes_jeux p,
+#liste_jeux #Catalogue #colone2jeu #Convertitout .noms_jeux .statistiques .notes_jeux p,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 .noms_jeux .statistiques .notes_jeux p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 7px;
+}
+
+#liste_jeux #Catalogue #colone1jeu #Calcultout .noms_jeux .statistiques .statistiques_ligne_une p ion-icon,
+#liste_jeux #Catalogue #colone1jeu #NOMJEU2 .noms_jeux .statistiques .statistiques_ligne_une p ion-icon,
+#liste_jeux #Catalogue #colone2jeu #Convertitout .noms_jeux .statistiques .statistiques_ligne_une p ion-icon,
+#liste_jeux #Catalogue #colone2jeu #NOMJEU4 .noms_jeux .statistiques .statistiques_ligne_une p ion-icon {
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+footer #footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+footer #footer #rsContact {
+    display: flex;
+    flex-direction: row;
+}
+
+footer #footer #rsContact #reseaux_sociaux {
+    margin-left: 30px;
+    text-align: justify;
+}
+
+footer #footer #rsContact #reseaux_sociaux h3 {
+    text-align: justify;
+}
+
+footer #footer #rsContact #reseaux_sociaux #rs {
+    display: flex;
+    flex-direction: row;
+}
+
+footer #footer #rsContact #reseaux_sociaux ul #rs {
+    list-style: none;
+}
+
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_1,
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_2,
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_1 li p a,
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_2 li p a,
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_3 li p a {
+    text-decoration: none;
+    color:inherit;
+}
+
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_1 li:hover,
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_2 li:hover,
+footer #footer #rsContact #reseaux_sociaux ul #rs #colone_3 li:hover {
+    color: #FEF9E6;
+}
+
+footer #footer #rsContact #contact {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+}
+
+footer #footer #rsContact #contact ul {
+    list-style: none;
+}
+
+footer #footer #rsContact #contact h3 {
+    text-align: justify;
+}
+
+footer #footer #rsContact #contact ul li p a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer #footer #rsContact #contact ul li:hover {
+    color:#FEF9E6;
+}
+
+footer #footer #copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer #footer #copyrigh p {
+    margin: 0;
+}
+
+/* Tablette en mode paysage */
+@media (max-width: 1366px){
+
+    header{
+        display: grid;
+    }
+
+    header #accueil {
+        flex-wrap: wrap;
+    }
+    
+    header #accueil img{
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    header #accueil img p{
+        justify-content: center;
+    }
+
+    header #accueil #h_home{
+        justify-content: center;
+    }
+
+    #liste_jeux #Catalogue #colone1jeu,
+    #liste_jeux #Catalogue #colone2jeu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    footer{
+        position: absolute;
+        margin-top: 50px;
+    }
+}
+
+/* Tablette en mode portrait */
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+    }
+
+    header{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header #accueil {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    header #accueil img{
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    header #accueil img p{
+        justify-content: center;
+    }
+
+    header #accueil #h_home{
+        justify-content: center;
+    }
+
+    footer{
+        position: absolute;
+        margin-top: 50px;
+    }
+
+    footer #footer #rsContact{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    footer #footer #rsContact #reseaux_sociaux #rs{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    footer #footer #rsContact #contact{
+        margin-bottom: 10px;
+    }
+}
+
+/* Téléphone */
+@media (max-width: 480px){
+    nav ul li{
+        display: flex;
+        flex-direction: row;
+    }
+
+    header{
+        flex-direction: row;
+    }
+
+    header #accueil img{
+        height: auto;
+        width: auto;
+        justify-content: center;
+    }
+
+    header #accueil img p{
+        justify-content: center;
+    }
+
+    header #accueil #h_home{
+        justify-content: center;
+    }
+
+    footer{
+        margin-top: 50px;
+        position: absolute;
+        
+    }
+
+    footer #footer #rsContact{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    footer #footer #rsContact #reseaux_sociaux #rs{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    footer #footer #rsContact #contact{
+        margin-bottom: 10px;
+    }
+}
